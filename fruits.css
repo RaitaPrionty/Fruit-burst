@@ -1,5 +1,6 @@
 .background{
-    background-image: url(./images/team.png);
-   background-image: overlay;
-    
+    background-image: url(./images/team.png), linear-gradient(rgba(0, 0, 0, 0.50),rgba(0, 0, 0, 0.50));
+   background-blend-mode: overlay;
+
+   
 }
