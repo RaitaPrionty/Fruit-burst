@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="light" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,17 +27,17 @@
         <div class="flex flex-col gap-2 items-center justify-between   max-w-[1300px] mx-auto md:flex-row px-5 py-3">
              <!-- nav-1st-part -->
          <div class="1st-part">
-            <ul class="flex gap-5 items-center text-white ">
-                <li class="hover:bg-red-800 text-xs md:text-lg">Home</li>
-                <li class="hover:bg-red-800 text-xs md:text-lg">About Us</li>
-                <li class="hover:bg-red-800 text-xs md:text-lg">Shop</li>
-                <li class="hover:bg-red-800 text-xs md:text-lg">All Fruits</li>
+            <ul class="flex gap-5 items-center text-white font-bold ">
+                <li class="hover:bg-red-800 rounded-lg p-3 text-xs md:text-lg">Home</li>
+                <li class="hover:bg-red-800 rounded-lg p-3 text-xs md:text-lg">About Us</li>
+                <li class="hover:bg-red-800 rounded-lg p-3 text-xs md:text-lg">Shop</li>
+                <li class="hover:bg-red-800 rounded-lg p-3 text-xs md:text-lg">All Fruits</li>
             </ul>
         </div>
         <!-- nav-2nd-part -->
         <div class="2nd-part flex items-center gap-2 text-white">
             <img class="w-10" src="./images/logo.png" alt="">
-            <p class="text-1xl font-semibold md:text-2xl">Fruit Burst</p>
+            <p class="text-1xl font-semibold md:text-2xl">Fruit & Juice</p>
 
         </div>
         <!-- nav-3rd-part -->
@@ -60,9 +60,9 @@
                         <img src="./images/banner1.png" class="w-full" />
                
                 <div class="space-y-1 md:space-y-4 text-center absolute top-0 bottom-0 right-0 left-0  text-white bg-[rgba(0,0,0,0.5)]  ">
-                    <h1 class=" md:mt-10 md:text-3xl 2xl:text-7xl  font-semibold ">Exotic tastes at your <br> doorstep</h1>
+                    <h1 class=" md:mt-10 md:text-3xl 2xl:text-7xl  font-semibold "> <span class="font-bold text-orange-500">"Fresh" </span><br>Fruits & Juice Bar</h1>
                     <p class="text-sm">We supply highly quality organic products</p>
-                    <button class="btn btn-error btn-sm md:btn-md text-white">Shop Now</button>
+                    <button id="banner-page-one-btn-one" class="btn font-bold  btn-error btn-sm md:btn-md text-white hover:bg-red-700">Buy Our Products</button>
                 </div>
                     </div>
              
@@ -71,29 +71,32 @@
                 <a href="#slide2" class="btn btn-circle btn-sm md:btn-md">❯</a>
               </div>
             </div> 
+
+            <!-- slider-2 -->
             <div id="slide2" class="carousel-item relative w-full">
                 <div class="w-full">
                     <img src="./images/banner2.png" class="w-full" />
            
             <div class="space-y-1 md:space-y-4 text-center absolute top-0 bottom-0 right-0 left-0  text-white bg-[rgba(0,0,0,0.5)]">
-                <h1 class="md:text-3xl 2xl:text-7xl  font-semibold ">Exotic tastes at your <br> doorstep</h1>
+                <h1 class=" md:mt-10 md:text-3xl 2xl:text-7xl  font-semibold "> <span class="font-bold text-orange-500">"Fresh" </span><br>Fruits & Juice Bar</h1>
                 <p class="text-sm">We supply highly quality organic products</p>
-                <button class="btn btn-error btn-sm md:btn-md text-white">Shop Now</button>
+                <button id="banner-page-one-btn-two" class="btn btn-error hover:bg-red-700 btn-sm md:btn-md text-white">Shop Now</button>
             </div>
                 </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle btn-sm md:btn-md">❮</a> 
                 <a href="#slide3" class="btn btn-circle btn-sm md:btn-md">❯</a>
               </div>
-            </div> 
+            </div>
+             <!--slider -3  -->
             <div id="slide3" class="carousel-item relative w-full">
                 <div class="w-full">
                     <img src="./images/banner3.png" class="w-full" />
            
             <div class="space-y-1 md:space-y-4 text-center absolute top-0 bottom-0 right-0 left-0  text-white bg-[rgba(0,0,0,0.5)] ">
-                <h1 class="md:text-3xl 2xl:text-7xl  font-semibold ">Exotic tastes at your <br> doorstep</h1>
+                <h1 class=" md:mt-10 md:text-3xl 2xl:text-7xl  font-semibold "> <span class="font-bold text-orange-500">"Fresh" </span><br>Fruits & Juice Bar</h1>
                 <p class="text-sm">We supply highly quality organic products</p>
-                <button class="btn btn-error btn-sm md:btn-md text-white">Shop Now</button>
+                <button id="banner-page-one-btn-three" class="btn btn-error hover:bg-red-700 btn-sm md:btn-md text-white">Shop Now</button>
             </div>
                 </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -101,14 +104,15 @@
                 <a href="#slide4" class="btn btn-circle btn-sm md:btn-md">❯</a>
               </div>
             </div> 
+            <!-- slider-4 -->
             <div id="slide4" class="carousel-item relative w-full">
                 <div class="w-full">
                     <img src="./images/banner4.png" class="w-full" />
            
             <div class="space-y-1 md:space-y-4 text-center absolute top-0 bottom-0 right-0 left-0  text-white bg-[rgba(0,0,0,0.5)]">
-                <h1 class="md:text-3xl 2xl:text-7xl  font-semibold ">Exotic tastes at your <br> doorstep</h1>
+                <h1 class=" md:mt-10 md:text-3xl 2xl:text-7xl  font-semibold "> <span class="font-bold text-orange-500">"Fresh" </span><br>Fruits & Juice Bar</h1>
                 <p class="text-sm">We supply highly quality organic products</p>
-                <button class="btn btn-error btn-sm md:btn-md text-white">Shop Now</button>
+                <button id="banner-page-one-btn-four" class="btn btn-error hover:bg-red-700 btn-sm md:btn-md text-white ">Shop Now</button>
             </div>
                 </div>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -260,8 +264,7 @@
                 </div>
             </div>
            <div class="flex justify-center mt-5">
-            <button class="btn btn-error text-white mb-2 ">Shop 
-                All
+            <button id="summer-collection" class="btn btn-error text-white mb-2 hover:bg-red-700 ">Our Summer Collection
                 </button>
            </div>
         </section>
@@ -441,7 +444,7 @@
         <div class="space-y-5 px-3 py-3 text-center max-w-[1300px] mx-auto mt-20 ">
             <div class="flex items-center gap-3 justify-center">
                 <img src="./images/logo.png" alt="">
-                <h1 class="text-3xl font-bold">Fruit Burst</h1>
+                <h1 class="text-3xl font-bold">Fruit & Juice</h1>
             </div>
             <div>
                 <ul class="grid grid-cols-2 items-center gap-2 md:grid-cols-3 lg:grid-cols-6 font-semibold">
@@ -476,6 +479,31 @@
         </div>
 
     </footer>
+    <!-- link of js -->
+    <script src="./js/script.js"></script>
+    <!-- script tag -->
+    <script>
+        document.getElementById('banner-page-one-btn-two').addEventListener('click',function(){
+            window.location.href = 'page-two.html';
+        })
+    </script>
+    <!-- for 3rd banner -->
+    <script>
+        document.getElementById('banner-page-one-btn-three').addEventListener('click',function(){
+            window.location.href = 'page-two.html';
+        })
+    </script>
+    <!-- for 4th banner -->
+    <script>
+        document.getElementById('banner-page-one-btn-four').addEventListener('click',function(){
+            window.location.href = 'page-two.html';
+        })
+    </script>
+    <script>
+        document.getElementById('summer-collection').addEventListener('click',function(){
+            window.location.href = 'page-three.html'
+        })
+    </script>
     
 </body>
 </html>
