@@ -44,15 +44,16 @@
     </header>
     <main>
         <!-- summer collection -->
-        <section class="mt-10">
+        <section class="mt-10 bg-black">
             <h1 class="text-center text-5xl font-bold text-slate-500 p-2">Our Best Collection Of Summer With <span class="text-orange-500">20% Discount</span></h1>
             <div class="summer-fruits mt-5 grid grid-cols-1  gap-5 items-center p-3 max-w-[1300px] mx-auto md:grid-cols-2 lg:grid-cols-3 ">
                 <!-- mango -->
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/mango2.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Sweet Mango</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="Mango-price" >500</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="Mango-price" >500</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="mango-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input id="Mango-input" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg"   type="tex" placeholder="price"> <br>
                     <button id="btn-mango" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -60,8 +61,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/jackfruit.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Sweet Jackfruit</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="jackfruit-price">700</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="jackfruit-price">700</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="jackfruit-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input id="jackfruit-input"  class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg"   type="tex" placeholder="price"> <br>
                     <button id="btn-jackfruit" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -69,8 +71,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/litchi.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Litchi</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="litchi-price">900</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="litchi-price">900</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="litchi-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="litchi-input"  type="tex" placeholder="price"> <br>
                     <button id="btn-litchi" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -78,8 +81,10 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/watermealon2.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Watermelon</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="watermelon-price">300</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="watermelon-price">300</span> tk/kg</p>
+
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="watermelon-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="watermelon-input"  type="tex" placeholder="price"> <br>
                     <button id="btn-watermelon" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -87,8 +92,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/berry.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Blackberry</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="berry-price">1000</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="berry-price">1000</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="blackberry-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="berry-input"  type="tex" placeholder="price"> <br>
                     <button id="berry-btn" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -96,8 +102,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/straw.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Strawberry</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="straw-price">1000</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="straw-price">1000</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="strawberry-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="straw-input"  type="tex" placeholder="price"> <br>
                     <button id="straw-btn" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -105,8 +112,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/waterfruit.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Water Fruit</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="waterfruit-price">400</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="waterfruit-price">400</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="waterfruit-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="waterfruit-input"  type="tex" placeholder="price"> <br>
                     <button id="btn-waterfruit" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -114,8 +122,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/waterapple.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Water Apple</h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="apple-price">800</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="apple-price">800</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="waterapple-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="apple-input"  type="tex" placeholder="price"> <br>
                     <button id="apple-btn" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
@@ -123,8 +132,9 @@
                 <div class="space-y-3 bg-black rounded-lg p-3 text-center">
                     <img class="rounded-lg mx-auto" style="width: 400px; height: 400px;" src="./images/plam.jpg" alt="">
                     <h1 class="text-orange-500 font-bold text-4xl">Sugar palm </h1>
-                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="palm-price">300</span> tk</p>
+                    <p class="text-orange-500 font-semibold text-3xl">Price: <span id="palm-price">300</span> tk/kg</p>
                     <p class="font-bold text-orange-500 text-3xl">20% offer</p>
+                    <input id="palm-quantity" class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" type="text" placeholder="Quality">
                     <input class="w-full font-bold text-slate-500 text-xl px-3 py-3 rounded-lg" id="palm-input"  type="tex" placeholder="price"> <br>
                     <button id="palm-btn" class="bg-orange-500 hover:bg-orange-800 rounded-lg font-bold text-white  px-5 py-3">Buy Now</button>
                 </div>
